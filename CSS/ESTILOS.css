@@ -1,0 +1,134 @@
+#titulo {
+    background-color: #ff0000; 
+    color: #fff;  
+}
+.title-image:hover {
+  transform: rotate(20deg) scale(3);
+}
+
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.profile-image:hover {
+  transform: rotate(20deg) scale(1.5);
+}
+
+h1 {
+    color: #fff;
+    font-family: 'roboto', sans-serif;
+    font-weight: 800;
+    font-size: 3.5rem;
+    line-height: 1;
+   }
+   
+
+   h6 {
+    color: #ffecec;
+   }
+
+   big{
+    color: rgb(255, 255, 255);
+   }
+   .container-fluid{
+    padding: 3% 15%;
+   }
+
+   body{
+    font-family: 'Montserrat', sans-serif;
+   } 
+
+   .navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+   }
+
+   .download-button {
+    margin: 5% 3% 5% 0;
+   }
+
+   .title-image{
+    width: 60%;
+    transform: rotate(25deg);
+   }
+
+   .navbar {
+    background-color: #000000;
+   }
+
+   #caracteristicas {
+    padding: 7% 15%;
+   } 
+
+   .caja-caracteristica{
+    text-align: center;
+    padding: 15%;
+   }
+
+   h3 {
+    font-family: 'Montserrat';
+    font-size: 1.5rem;
+    font-weight: bold;
+   
+   }
+
+   p{
+    color: rgb#ff0026;
+   }
+
+   .testimonio-card {
+    background-color: #ff0000; 
+    color: #ffffff; 
+    border: none;
+  }
+  
+  #cta {
+    background-color: #ff0000; 
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .cta-contenido h3 {
+    margin-bottom: 30px;
+    font-size: 1.8rem;
+  }
+  
+  .cta-botones button {
+    background-color: white;
+    color: #000000;
+    border: 2px solid white;
+    padding: 12px 24px;
+    margin: 0 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .cta-botones button:hover {
+    background-color: #000000;
+    color: white;
+    border-color: #ffffff;
+  }
+
+
+#footer {
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 1rem;
+    border-top: 3px solid #ffffff;
+  }
+  
+  #footer small {
+    display: block;
+    margin-top: 5px;
+    color: #cf9090;
+    font-size: 0.85rem;
+  }
+  
+  
